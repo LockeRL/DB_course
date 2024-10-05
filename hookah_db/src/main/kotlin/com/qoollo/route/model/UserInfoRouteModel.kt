@@ -1,0 +1,13 @@
+package com.qoollo.route.model
+
+import kotlinx.serialization.Contextual
+import kotlinx.serialization.Serializable
+import java.util.*
+
+@Serializable
+data class UserInfoRouteModel(
+    @Contextual val id: UUID? = null,
+    val login: String,
+    val firstName: String,
+    val secondName: String
+)

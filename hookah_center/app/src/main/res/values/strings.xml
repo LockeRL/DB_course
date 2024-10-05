@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">HookahCenter</string>
+
+    <string name="register">Register</string>
+    <string name="first_name">First name</string>
+    <string name="second_name">Second name</string>
+    <string name="login">Login</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="password">Password</string>
+    <string name="have_account">Already have account?</string>
+    <string name="not_have_account">Don\'t have account yet?</string>
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+
+    <string name="informational_error">Informational HTTP response</string>
+    <string name="redirection_error">Redirection in HTTP response</string>
+    <string name="client_error">Client error in HTTP response</string>
+    <string name="server_error">Server error in HTTP response</string>
+    <string name="convert_error">Can\'t convert response</string>
+    <string name="unknown_error">Unknown error in HTTP response</string>
+    <string name="internet_connection_error">Internet connection error</string>
+
+    <string name="id">Id</string>
+
+    <string name="bars">Bars</string>
+    <string name="score">Score</string>
+
+    <string name="food">Food</string>
+    <string name="drinks">Drinks</string>
+    <string name="hookahs">Hookahs</string>
+    <string name="price">Price</string>
+
+    <string name="info">Info</string>
+    <string name="name">Name</string>
+    <string name="city">City</string>
+    <string name="website">Website</string>
+    <string name="phone">Phone</string>
+
+    <string name="rouble">₽</string>
+    <string name="type">Type</string>
+    <string name="ingredients">Ingredients</string>
+</resources>

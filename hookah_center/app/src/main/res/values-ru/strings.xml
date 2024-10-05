@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Кальянные</string>
+
+    <string name="register">Зарегестрироваться</string>
+    <string name="first_name">Имя</string>
+    <string name="second_name">Фамилия</string>
+    <string name="login">Логин</string>
+    <string name="log_in">Войти</string>
+    <string name="sign_up">Зарегестрироваться</string>
+    <string name="password">Пароль</string>
+    <string name="have_account">Есть аккаунт?</string>
+    <string name="not_have_account">Нет аккаунта?</string>
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+
+    <string name="informational_error">Informational HTTP response</string>
+    <string name="redirection_error">Redirection in HTTP response</string>
+    <string name="client_error">Client error in HTTP response</string>
+    <string name="server_error">Server error in HTTP response</string>
+    <string name="convert_error">Can\'t convert response</string>
+    <string name="unknown_error">Unknown error in HTTP response</string>
+    <string name="internet_connection_error">Internet connection error</string>
+
+    <string name="id">Id</string>
+
+    <string name="bars">Бары</string>
+    <string name="score">Оценка</string>
+
+    <string name="food">Блюда</string>
+    <string name="drinks">Напитки</string>
+    <string name="hookahs">Кальяны</string>
+    <string name="price">Цена</string>
+
+    <string name="info">Информация</string>
+    <string name="name">Название</string>
+    <string name="city">Город</string>
+    <string name="website">Сайт</string>
+    <string name="phone">Телефон</string>
+
+    <string name="rouble">₽</string>
+    <string name="type">Тип</string>
+    <string name="ingredients">Состав</string>
+</resources>

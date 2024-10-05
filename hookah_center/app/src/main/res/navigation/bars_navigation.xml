@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bars_navigation"
+    app:startDestination="@id/barsFragment">
+
+    <fragment
+        android:id="@+id/barsFragment"
+        android:name="com.qoollo.hookah_center.presentation.ui.fragment.bars.BarListFragment"
+        android:label="BarsFragment" >
+        <action
+            android:id="@+id/action_barsFragment_to_barFragment"
+            app:destination="@id/barFragment"
+            app:popUpTo="@id/barsFragment"
+            app:popUpToSaveState="true"
+            app:restoreState="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/barFragment"
+        android:name="com.qoollo.hookah_center.presentation.ui.fragment.bars.BarFragment"
+        android:label="BarFragment" >
+        <action
+            android:id="@+id/action_barFragment_to_drinkListFragment"
+            app:destination="@id/drinkListFragment"
+            app:popUpTo="@id/barFragment"
+            app:popUpToSaveState="true"
+            app:restoreState="true"/>
+        <action
+            android:id="@+id/action_barFragment_to_foodListFragment"
+            app:destination="@id/foodListFragment"
+            app:popUpTo="@id/barFragment"
+            app:popUpToSaveState="true"
+            app:restoreState="true"/>
+        <action
+            android:id="@+id/action_barFragment_to_hookahListFragment"
+            app:destination="@id/hookahListFragment"
+            app:popUpTo="@id/barFragment"
+            app:popUpToSaveState="true"
+            app:restoreState="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/drinkFragment"
+        android:name="com.qoollo.hookah_center.presentation.ui.fragment.bars.DrinkFragment"
+        android:label="DrinkFragment" />
+    <fragment
+        android:id="@+id/drinkListFragment"
+        android:name="com.qoollo.hookah_center.presentation.ui.fragment.bars.DrinkListFragment"
+        android:label="DrinkListFragment" >
+        <action
+            android:id="@+id/action_drinkListFragment_to_drinkFragment"
+            app:destination="@id/drinkFragment"
+            app:popUpTo="@id/drinkListFragment"
+            app:popUpToSaveState="true"
+            app:restoreState="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/foodFragment"
+        android:name="com.qoollo.hookah_center.presentation.ui.fragment.bars.FoodFragment"
+        android:label="FoodFragment" />
+    <fragment
+        android:id="@+id/foodListFragment"
+        android:name="com.qoollo.hookah_center.presentation.ui.fragment.bars.FoodListFragment"
+        android:label="FoodListFragment" >
+        <action
+            android:id="@+id/action_foodListFragment_to_foodFragment"
+            app:destination="@id/foodFragment"
+            app:popUpTo="@id/foodListFragment"
+            app:popUpToSaveState="true"
+            app:restoreState="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/hookahFragment"
+        android:name="com.qoollo.hookah_center.presentation.ui.fragment.bars.HookahFragment"
+        android:label="HookahFragment" />
+    <fragment
+        android:id="@+id/hookahListFragment"
+        android:name="com.qoollo.hookah_center.presentation.ui.fragment.bars.HookahListFragment"
+        android:label="HookahListFragment" >
+        <action
+            android:id="@+id/action_hookahListFragment_to_hookahFragment"
+            app:destination="@id/hookahFragment"
+            app:popUpTo="@id/hookahListFragment"
+            app:popUpToSaveState="true"
+            app:restoreState="true"/>
+    </fragment>
+</navigation>

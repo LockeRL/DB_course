@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/barsContainerFragment">
+
+    <action android:id="@+id/action_global_barsContainerFragment"
+        app:destination="@id/barsContainerFragment"
+        app:popUpTo="@id/barsContainerFragment"
+        app:popUpToSaveState="true"
+        app:restoreState="true"/>
+
+    <action android:id="@+id/action_global_profileContainerFragment"
+        app:destination="@id/profileContainerFragment"
+        app:popUpTo="@id/barsContainerFragment"
+        app:popUpToSaveState="true"
+        app:restoreState="true"/>
+
+    <fragment
+        android:id="@+id/profileContainerFragment"
+        android:name="com.qoollo.hookah_center.presentation.ui.fragment.profile.ProfileContainerFragment"
+        android:label="ProfileContainerFragment" />
+    <fragment
+        android:id="@+id/barsContainerFragment"
+        android:name="com.qoollo.hookah_center.presentation.ui.fragment.bars.BarsContainerFragment"
+        android:label="BarsFragment" />
+</navigation>
